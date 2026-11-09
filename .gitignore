@@ -27,10 +27,16 @@ report/SECTION_CHECK.md
 report/paragraph_rewrites.tex
 report/theory_revised.tex
 
-# Only the PDF of the report is handed in
+# Keep the final report and the sources needed to rebuild it
 *.md
 !README.md
 Code/check_numerics.py
 Code/checks/
 report/*
 !report/report.pdf
+!report/report.tex
+!report/References.bib
+!report/figures/
+report/figures/*
+!report/figures/*.pdf
+FYS-STK4155-Project2-submission.zip

@@ -1,0 +1,106 @@
+{
+  "gradients": {
+    "mse_sigmoid": {
+      "autograd": 1.042262248029742e-16,
+      "finite_differences": 4.12857693933642e-10
+    },
+    "mse_relu": {
+      "autograd": 2.883481868962526e-17,
+      "finite_differences": 1.9860814698739524e-10
+    },
+    "mse_leaky_relu": {
+      "autograd": 5.758549775060803e-17,
+      "finite_differences": 2.880172501476589e-10
+    },
+    "cross_entropy_sigmoid": {
+      "autograd": 1.0259277231032235e-15,
+      "finite_differences": 4.600131476901038e-09
+    },
+    "cross_entropy_relu": {
+      "autograd": 1.2205647122138355e-16,
+      "finite_differences": 3.323252291544718e-10
+    },
+    "cross_entropy_leaky_relu": {
+      "autograd": 1.5153549776134155e-16,
+      "finite_differences": 4.3483636531955446e-10
+    }
+  },
+  "closed_forms": {
+    "ols": 3.577696764890168e-15,
+    "ridge": 3.682625970262337e-15,
+    "logistic_probabilities": 7.781078192881097e-08
+  },
+  "cost": [
+    {
+      "sizes": [
+        1,
+        50,
+        1
+      ],
+      "n_parameters": 151,
+      "forward_seconds": 0.00012989999959245324,
+      "gradient_seconds": 0.0003384500014362857,
+      "ratio": 2.6054657621103527
+    },
+    {
+      "sizes": [
+        1,
+        100,
+        100,
+        1
+      ],
+      "n_parameters": 10401,
+      "forward_seconds": 0.0005566499894484878,
+      "gradient_seconds": 0.0013879500038456172,
+      "ratio": 2.4933980601001298
+    },
+    {
+      "sizes": [
+        1,
+        100,
+        100,
+        100,
+        100,
+        1
+      ],
+      "n_parameters": 30601,
+      "forward_seconds": 0.0006732499896315858,
+      "gradient_seconds": 0.002361249993555248,
+      "ratio": 3.5072410396134805
+    },
+    {
+      "sizes": [
+        784,
+        128,
+        10
+      ],
+      "n_parameters": 101770,
+      "forward_seconds": 0.0013875500007998198,
+      "gradient_seconds": 0.004215900000417605,
+      "ratio": 3.038376993973155
+    },
+    {
+      "sizes": [
+        784,
+        512,
+        10
+      ],
+      "n_parameters": 407050,
+      "forward_seconds": 0.062488349998602644,
+      "gradient_seconds": 0.06850765000854153,
+      "ratio": 1.096326755468395
+    },
+    {
+      "sizes": [
+        784,
+        512,
+        512,
+        10
+      ],
+      "n_parameters": 669706,
+      "forward_seconds": 0.09926229999109637,
+      "gradient_seconds": 0.14087030000519007,
+      "ratio": 1.4191722337466073
+    }
+  ]
+}

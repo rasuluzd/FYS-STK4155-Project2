@@ -1,0 +1,36 @@
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+data/
+*.aux
+*.log
+*.out
+*.blg
+*.bbl
+*Notes.bib
+results/*log*.txt
+
+# Not part of the hand-in: course material, reference reports and working notes
+week*/
+Lecturebook.pdf
+ClaudeCodeGuide.pdf
+EvaluationForm.md
+LLM_Usage_Declaration_Guidelines.md
+Project2.tex
+ProjectWriting/
+ReportExample/
+Project1_Overleaf_final/
+report/original/
+report/*REVIEW*.md
+report/SECTION_CHECK.md
+report/paragraph_rewrites.tex
+report/theory_revised.tex
+
+# Only the PDF of the report is handed in
+*.md
+!README.md
+Code/check_numerics.py
+Code/checks/
+report/*
+!report/report.pdf
